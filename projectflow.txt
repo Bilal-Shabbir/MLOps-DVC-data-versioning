@@ -13,3 +13,4 @@
 12. Then git add -commit-push (save second version of our data at this point)
 13. Check dvc/git status, evrything should be upto date.
 14. Now repeat step 10: 12 for v3 of data.
+15. If you go to any previous version of project from latest version or viceversa, just use "dvc pull" to have corresponding version of data.
