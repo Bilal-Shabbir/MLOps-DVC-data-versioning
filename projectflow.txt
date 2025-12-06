@@ -1,2 +1,9 @@
 1. Create git repo and clone it in local.
 2. Create mycode.py and add code to it. (it will save a csv file to a new "data" folder)
+3. Do a git commit before initializing dev.
+4. Now we do "dvc init' (creates .dvcignore, .dvc)
+5. Create a S3 directory
+6. run command  "dvc remote add -d myremote S3"
+7. Next "dcv add data/", this this starts data folder. 
+    Remove data from tracking by git git rm -r --cached 'data' and  git commit -m "stop tracking data"
+8. Run aganin "dcv add data/" and then "git add .gitignore data.dvc"
